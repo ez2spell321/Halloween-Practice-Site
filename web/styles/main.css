@@ -15,6 +15,13 @@ section{
     padding-left: 15px;
 }
 
+#Sidebar{
+    float:left;
+    width: 160px;
+    background-color: white;
+    height: 530px;
+}
+
 #overall-heading{
     border-bottom: 5px solid black;
     background: -webkit-linear-gradient(45deg,white,orange 75%,black);
