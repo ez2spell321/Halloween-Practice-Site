@@ -11,16 +11,17 @@ body{
     font-family: sans-serif;
 }
 
+article{
+    overflow: auto;
+}
+
+
+
 section{
     padding-left: 15px;
 }
 
-#Sidebar{
-    float:left;
-    width: 160px;
-    background-color: white;
-    height: 530px;
-}
+
 
 #overall-heading{
     border-bottom: 5px solid black;
@@ -44,28 +45,81 @@ section{
 #first-heading{
     margin-bottom: 5px;
        margin-left: 40px;
+       margin-top:0px;
 
 }
 
-a:link{
-    color:orange;
+#Topbar{
+    background: black;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
-a:hover{
-    color: green;
+#Topbar a{
+    color: #FFF;
+}
+
+#Topbar ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#Topbar li{
+    display: inline;
+    margin: 20px;
+}
+
+#Topbar a:link{
+    color: #FFF;
+    background-color: #000;
+    text-decoration: none;
     
 }
 
-li{
-    margin: 10px;
+
+
+#Topbar a:hover{
+    background: gray;
+    
 }
 
+#Sidebar{
+    float:left;
+    width: 160px;
+    background-color: white;
+}
+#Sidebar a{
+     text-decoration: none;
+     padding-left: 5px;
+     display: block;
+}
+#Sidebar li{
+    display: block;
+    background: orange;
+    margin-bottom:   5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#Sidebar a:link{
+    color:#000;
+}
+
+#Sidebar a:hover{
+    color: green;
+    background: none;
+    
+}
+
+
 #footer{
+    clear: bottom;
     border-top: 5px solid black;
     background: -webkit-linear-gradient(45deg,black,orange,white 75%);
     padding: 10px;
     text-align: center;
     font-size: 90%
+ 
     
     
 }
