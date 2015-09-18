@@ -1,0 +1,176 @@
+html{
+        background-image:url(../images/bats.gif);
+}
+
+body{
+    width: 800px;
+    margin: 0 auto;
+    border: 5px solid black;
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px black;
+    font-family: sans-serif;
+}
+
+article{
+    overflow: auto;
+}
+
+
+
+section{
+    padding-left: 15px;
+}
+
+
+
+#overall-heading{
+    border-bottom: 5px solid black;
+    background: -webkit-linear-gradient(45deg,white,orange 75%,black);
+}
+
+#main-heading::first-letter{
+    font-size: 150%;
+}
+
+#catch-phrase{
+    margin-top: 0px;
+    margin-left: 40px;
+
+}
+
+#pumpkin-img{
+    float:left;
+}
+
+#first-heading{
+    margin-bottom: 5px;
+       margin-left: 40px;
+       margin-top:0px;
+
+}
+
+#Topbar{
+    background: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#Topbar a{
+    color: #FFF;
+}
+
+#Topbar ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#Topbar li{
+    display: inline;
+    margin: 20px;
+}
+
+#Topbar a:link{
+    color: #FFF;
+    background-color: #000;
+    text-decoration: none;
+
+    
+}
+
+#Topbar ul li:nth-child(2) a:link{
+    color: orange;
+    background-color: #000;
+    text-decoration: none;
+
+    
+}
+
+
+
+
+#Topbar a:hover{
+    background: gray;
+    
+}
+
+#Sidebar{
+    float:left;
+    width: 160px;
+    background-color: white;
+}
+#Sidebar a{
+     text-decoration: none;
+     padding-left: 5px;
+     display: block;
+}
+#Sidebar li{
+    display: block;
+    background: orange;
+    margin-bottom:   5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#Sidebar a:link{
+    color:#000;
+}
+
+#Sidebar a:hover{
+    color: green;
+    background: none;
+    
+}
+
+
+#footer{
+    clear: both;
+    border-top: 5px solid black;
+    background: -webkit-linear-gradient(45deg,black,orange,white 75%);
+    padding: 10px;
+    text-align: center;
+    font-size: 90%
+
+}
+
+#table{
+    float: left;
+    width: 500px;
+}
+
+tr :last-of-type{
+    background: #f5DEB3;
+    text-align: right;
+}
+
+#table a{
+    background: white;
+}
+tr :first-of-type{
+    text-align: start;
+}
+
+#on, a:link{
+    color: orange;
+    
+}
+
+
+
+h1 {
+    font-size: 2em; 
+}
+h2 {
+    font-size: 1.5em; 
+}
+h3 {
+    font-size: 1.17em;
+}
+h4 {
+    font-size: 1.12em;
+}
+h5 {
+    font-size: .83em;
+}
+h6 {
+    font-size: .75em;
+}
