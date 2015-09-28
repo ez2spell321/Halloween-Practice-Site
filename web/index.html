@@ -4,15 +4,18 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title >Halloween Store</title>
 </head>
 
 <body>
           <link href="styles/normalize.css" property="stylesheet" rel="stylesheet" type="text/css"/>
-          <link href="styles/main.css" property="stylesheet" rel="stylesheet" type="text/css"/>
+          <link href="styles/main_rwd.css" property="stylesheet" rel="stylesheet" type="text/css"/>
           
               <div id="overall-heading">
-    <img id="pumpkin-img" src="images/pumpkin.gif" alt=""/>
+                  <div>
+    <img id="pumpkin-img" src="images/pumpkin.gif"   alt=""/>
+                  </div>
     <h1 id="first-heading"> The Halloween Store</h1>
 
     <h3 id="catch-phrase">For the little Goblin in all of us!</h3>
@@ -20,44 +23,34 @@
           <nav id="Topbar">        
 <ul>
     
-    <a href="">        </a>
+
     <li><a href="index.html">Home</a></li>
     <li><a href="slides/products/productList.html">Product List</a></li>
     <li><a href="">Personal</a></li>
     <li><a href="">Decorating Ideas</a></li>
-    <li><a href="">Join Email</a></li>
+    <li><a href="email.html">Join Email</a></li>
+    
 </ul>
+              <a id="hamburger" href=""> &#9776; </a>
           </nav>
           
-          <nav id="Sidebar">
-                  <ul>
-        <li><a href="Products/Props">Props</a></li>
-        <li><a href="Products/Costumes">Costumes</a></li>
-        <li><a href="Products/Effects">Special FX</a></li>
-        <li><a href="Products/Masks">Masks</a></li>
-    </ul>
+                    <article>
               
-              
-          </nav>
-
-
-          <article>
           <section>
               <h2 id="main-heading">Welcome to my site.<br> Please come in and stay awhile.</h2>
           </section>
-          
-        
+       
     <p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.</p>
     <p> If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.</p>
       
           
           <section>
     <h3>Product of the week</h3>
-    <p>
+    <div>
         <a href="slides/products/cat.html">
-        <img src="images/cat1.jpg" alt="20inch-derranged-cat"/>
+        <img id="cat-image" src="images/cat1.jpg" alt="20inch-derranged-cat" />
         </a>
-    </p>
+    </div>
     <a href="slides/products/cat.html">20" Deranged cat</a> 
     
 
@@ -69,6 +62,17 @@
     <p> If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund.<strong> No questions asked!</strong></p>					
     </section>
     </article>
+          
+          <nav id="Sidebar">
+                  <ul>
+        <li><a href="Products/Props">Props</a></li>
+        <li><a href="Products/Costumes">Costumes</a></li>
+        <li><a href="Products/Effects">Special FX</a></li>
+        <li><a href="Products/Masks">Masks</a></li>
+    </ul>            
+          </nav>
+          
+
           
           
     <footer id="footer">
